@@ -1,0 +1,33 @@
+/* =========================================
+      ESTILOS GENERALES
+   ========================================= */
+body {
+      background-color: #f4f4f4; /* Un fondo gris muy suave para toda la página */
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif; /* Fuente por defecto si falla la del h1 */
+}
+
+/* =========================================
+      TITULO
+   ========================================= */
+h1 {
+      text-align: center;
+      color: #2c3e50;
+      font-family: 'Segoe UI', sans-serif;
+      margin-top: 30px;
+      text-transform: uppercase; /* Opcional: Pone todo en MAYÚSCULAS */
+      letter-spacing: 2px;       /* Separa un poco las letras */
+}
+
+/* =========================================
+      CANVAS
+   ========================================= */
+#canvas {
+      background-color: #e0e0e0; /* Gris claro */
+      border: 4px solid #333;    /* Borde más grueso */
+      border-radius: 8px;        /* Bordes redondeados */
+      display: block;            /* Comportamiento de bloque */
+      margin: 20px auto;         /* Centrado horizontal automático */
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* Sombra 3D */
+}
