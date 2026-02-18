@@ -31,6 +31,16 @@
 var canvas = document.getElementById("canvas");
 
 /**
+ * Paso 1.5: Ajustar el tamaño del lienzo (NUEVO).
+ * Modificamos las propiedades internas 'width' y 'height' del canvas.
+ * Usamos el objeto global 'window' para leer el tamaño actual de la pantalla.
+ *
+ * Fórmula: Tamaño Ventana * 0.5 = 50% del tamaño disponible.
+ */
+canvas.width = window.innerWidth * 0.5;
+canvas.height = window.innerHeight * 0.5;
+
+/**
  * Paso 2: Obtener el Contexto de Dibujo (Rendering Context).
  * El método .getContext() es la puerta de entrada a la API gráfica.
  *
