@@ -1,5 +1,5 @@
 /* =========================================
-      ESTILOS GENERALES
+      ESTILOS GENERALES (Sin cambios)
    ========================================= */
 body {
       background-color: #f4f4f4; /* Un fondo gris muy suave para toda la página */
@@ -9,7 +9,7 @@ body {
 }
 
 /* =========================================
-      TITULO
+      TITULO (Sin cambios)
    ========================================= */
 h1 {
       text-align: center;
@@ -21,13 +21,26 @@ h1 {
 }
 
 /* =========================================
-      CANVAS
+      CANVAS (ESTILOS MODIFICADOS)
    ========================================= */
 #canvas {
-      background-color: #e0e0e0; /* Gris claro */
-      border: 4px solid #333;    /* Borde más grueso */
-      border-radius: 8px;        /* Bordes redondeados */
-      display: block;            /* Comportamiento de bloque */
+      /* 1. Relleno sea rojo claro */
+      /* Cambiamos el gris (#e0e0e0) por un rojo suave */
+      background-color: #ffcdd2;
+
+      /* 2. Color de la linea sea azul */
+      /* Cambiamos el borde negro (#333) por un azul brillante */
+      border: 4px solid #2196F3;
+
+      /* 3. Orillas redondeadas */
+      /* Ya lo tenías, pero aumenté el valor a 15px para que se note más */
+      border-radius: 15px;
+
+      /* 4. Tenga sombra */
+      /* Ya tenías una excelente sombra 3D, la mantenemos igual */
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+      /* Propiedades de posicionamiento (Sin cambios) */
+      display: block;            /* Comportamiento de bloque para poder centrarlo */
       margin: 20px auto;         /* Centrado horizontal automático */
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); /* Sombra 3D */
 }
